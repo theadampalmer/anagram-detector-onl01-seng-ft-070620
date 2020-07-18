@@ -1,11 +1,10 @@
 require 'pry'
 class Anagram
 
-  attr_accessor
-  
-    def initialize(name, grade)
-      @name = name
-      @grade = grade
-    end
+ attr_accessor :name
+ 
+  def initialize(name)
+    @name = name
+  end
     
 end
